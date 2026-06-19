@@ -1,6 +1,6 @@
-torch>=2.0.0
-torchvision>=0.15.0
-gradio>=4.0.0
-Pillow>=9.0.0
-numpy>=1.23.0
-requests>=2.28.0
+torch>=2.1.0
+torchvision>=0.16.0
+gradio==6.18.0
+numpy==2.2.6
+Pillow==12.2.0
+requests==2.34.2
