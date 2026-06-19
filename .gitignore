@@ -1,0 +1,26 @@
+# Данные и веса
+DATA_DIR/
+dino_heads/
+crack_seg/
+*.pt
+*.pkl
+*.csv
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Прочее
+*.log
+read_nb.py
+kaggle.json
+*.zip
+*.gz
+*.docx
+.idea/
+submission_exp17.csv
