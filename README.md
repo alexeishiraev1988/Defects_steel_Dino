@@ -11,16 +11,31 @@
 
 ### 1. Клонировать репозиторий
 ```bash
-git clone https://github.com/alexeishiraev1988/Defects_steel.git
-cd Defects_steel
+git clone https://github.com/alexeishiraev1988/Defects_steel_Dino.git
+cd Defects_steel_Dino
 ```
 
-### 2. Установить зависимости
+### 2. Установить PyTorch
+
+Сначала установите PyTorch под вашу версию CUDA (выбрать команду можно на [pytorch.org](https://pytorch.org/get-started/locally/)):
+
+```bash
+# CUDA 12.8 (использовалась при разработке)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
+# CUDA 12.1
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# Только CPU (без GPU)
+pip install torch torchvision
+```
+
+### 3. Установить остальные зависимости
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Запустить приложение
+### 4. Запустить приложение
 ```bash
 python app.py
 ```
